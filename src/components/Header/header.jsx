@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./header.css"
 import { useNavigate } from 'react-router-dom'
+import axios from 'axios'
 
 const header = () => {
+  
 const navigate = useNavigate();
 const home = () => {
   navigate('/')

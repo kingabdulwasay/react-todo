@@ -44,7 +44,7 @@ const Left = () => {
 
 
   return (
-    <>
+    <div style={{display:"flex", flexDirection:"column", width:"100%"}}>
       {viewMode ? (
         <div className="alltodos">
           {tasks.map((todo) => (
@@ -100,7 +100,8 @@ const Left = () => {
           <div className="pic"></div>
         </div>
       )}
-    </>
+  
+    </div>
   );
 };
 
