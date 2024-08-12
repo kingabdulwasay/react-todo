@@ -44,7 +44,7 @@ const Left = () => {
 
 
   return (
-    <div style={{display:"flex", flexDirection:"column", width:"100%"}}>
+    <div style={{display:"flex", flexDirection:"column", width:"100%", padding: "20px"}}>
       {viewMode ? (
         <div className="alltodos">
           {tasks.map((todo) => (

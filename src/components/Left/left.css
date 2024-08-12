@@ -125,7 +125,7 @@
 }
 
 .pic{
-    width: 40%;
+    width: 100%;
     height: 450px;
     background: url('../../assets/todo.png');
     background-position: center;
