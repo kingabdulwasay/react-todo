@@ -1,0 +1,67 @@
+.head {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 100;
+    position: sticky;
+    border-bottom: 2px solid #00B0FF;
+animation: drop 1s  ease-in-out 1;
+}
+
+@keyframes drop{
+    0%{
+        transform: translateY(-200px);
+        opacity: 0;
+    }50%{
+        transform: translateY(10px);
+        opacity: 1;
+    }100%{
+        transform: translateY(0);
+    }
+}
+
+.left span {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.left span .blue {
+    color: #00B0FF;
+}
+
+.center span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.center span .blue {
+    color: #00B0FF;
+}
+
+.right span{
+    margin: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.right .author img{
+    border-radius: 50%;
+    border: 2px solid #00B0FF;
+}
+
+
+.right .btn{
+color: white;
+background-color: #00B0FF;
+border: 0;
+font-size: 18px;
+padding:  5px 10px;
+margin: 0 10px;
+border-radius: 5px;
+cursor: pointer;
+}
+
